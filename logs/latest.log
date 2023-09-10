@@ -1,82 +1,121 @@
-[21:45:45] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:45:46] [ServerMain/INFO]: Loaded 7 recipes
-[21:45:47] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[21:45:47] [Server thread/INFO]: Loading properties
-[21:45:47] [Server thread/INFO]: This server is running Paper version git-Paper-172 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 72e87ab)
-[21:45:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:45:47] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:45:47] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[21:49:51] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:49:52] [ServerMain/INFO]: Loaded 7 recipes
+[21:49:53] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[21:49:53] [Server thread/INFO]: Loading properties
+[21:49:53] [Server thread/INFO]: This server is running Paper version git-Paper-172 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 72e87ab)
+[21:49:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:49:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:49:53] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[21:45:47] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
-[21:45:47] [Server thread/INFO]: Default game type: SURVIVAL
-[21:45:47] [Server thread/INFO]: Generating keypair
-[21:45:47] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:45:47] [Server thread/INFO]: Using default channel type
-[21:45:47] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[21:45:47] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[21:45:48] [Server thread/INFO]: [ServerTap] Loading server plugin ServerTap v0.5.3
-[21:45:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:45:48] [Server thread/INFO]: [ServerTap] Enabling ServerTap v0.5.3
-[21:45:48] [Server thread/INFO]: [ServerTap] No Vault plugin detected
-[21:45:48] [Server thread/WARN]: [ServerTap] AUTH KEY IS SET TO DEFAULT "change_me"
-[21:45:48] [Server thread/WARN]: [ServerTap] CHANGE THE key IN THE config.yml FILE
-[21:45:48] [Server thread/WARN]: [ServerTap] FAILURE TO CHANGE THE KEY MAY RESULT IN SERVER COMPROMISE
-[21:45:48] [Server thread/WARN]: [ServerTap] TLS is not enabled.
-[21:45:48] [Server thread/INFO]: [ServerTap] Enabling CORS for *
-[21:45:48] [Server thread/INFO]: [io.javalin.Javalin] Starting Javalin ...
-[21:45:48] [Server thread/INFO]: [org.eclipse.jetty.server.Server] jetty-11.0.14; built: 2023-02-22T23:41:48.575Z; git: 4601fe8dd805ce75b69c64466c115a162586641b; jvm 19.0.2+7-44
-[21:45:48] [Server thread/INFO]: [org.eclipse.jetty.server.session.DefaultSessionIdManager] Session workerName=node0
-[21:45:48] [Server thread/INFO]: [org.eclipse.jetty.server.handler.ContextHandler] Started i.j.j.@3a7e2459{/,null,AVAILABLE}
-[21:45:48] [Server thread/INFO]: [org.eclipse.jetty.server.AbstractConnector] Started ServerConnector@75dfe7d0{HTTP/1.1, (http/1.1)}{0.0.0.0:4567}
-[21:45:48] [Server thread/INFO]: [org.eclipse.jetty.server.Server] Started Server@3b07f48{STARTING}[11.0.14,sto=0] @9487ms
-[21:45:48] [Server thread/INFO]: [io.javalin.Javalin] Listening on http://localhost:4567/
-[21:45:48] [Server thread/INFO]: [io.javalin.Javalin] You are running Javalin 5.4.2 (released March 6, 2023. Your Javalin version is 188 days old. Consider checking for a newer version.).
-[21:45:48] [Server thread/INFO]: [io.javalin.Javalin] Javalin started in 299ms \o/
-[21:45:48] [Server thread/INFO]: Preparing level "world"
-[21:45:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:45:49] [Server thread/INFO]: Time elapsed: 189 ms
-[21:45:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:45:49] [Server thread/INFO]: Time elapsed: 38 ms
-[21:45:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:45:49] [Server thread/INFO]: Time elapsed: 31 ms
-[21:45:49] [Server thread/INFO]: Running delayed init tasks
-[21:45:49] [Server thread/INFO]: Done (2.541s)! For help, type "help"
-[21:45:49] [Server thread/INFO]: Timings Reset
-[21:46:01] [User Authenticator #0/INFO]: UUID of player staticstriker85 is 4902c8db-cf0b-4954-8b2c-5b47a78fbfa3
-[21:46:01] [Server thread/INFO]: staticstriker85 joined the game
-[21:46:01] [Server thread/INFO]: staticstriker85[/127.0.0.1:53511] logged in with entity id 258 at ([world]-5.699999988079071, 83.0, 5.578024920866546)
-[21:46:03] [Server thread/INFO]: staticstriker85 lost connection: Disconnected
-[21:46:03] [Server thread/INFO]: staticstriker85 left the game
-[21:46:08] [Server thread/INFO]: Stopping server
-[21:46:08] [Server thread/INFO]: [ServerTap] Disabling ServerTap v0.5.3
-[21:46:08] [Server thread/INFO]: [ServerTap] Disabled Version 0.5.3
-[21:46:08] [Server thread/INFO]: [io.javalin.Javalin] Stopping Javalin ...
-[21:46:08] [Server thread/INFO]: [org.eclipse.jetty.server.Server] Stopped Server@3b07f48{STOPPING}[11.0.14,sto=0]
-[21:46:08] [Server thread/INFO]: [org.eclipse.jetty.server.AbstractConnector] Stopped ServerConnector@75dfe7d0{HTTP/1.1, (http/1.1)}{0.0.0.0:4567}
-[21:46:08] [Server thread/INFO]: [org.eclipse.jetty.server.handler.ContextHandler] Stopped i.j.j.@3a7e2459{/,null,STOPPED}
-[21:46:08] [Server thread/INFO]: [io.javalin.Javalin] Javalin has stopped
-[21:46:08] [Server thread/INFO]: Saving players
-[21:46:08] [Server thread/INFO]: Saving worlds
-[21:46:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:46:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[21:46:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[21:46:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[21:46:09] [Server thread/INFO]: [ChunkHolderManager] Saved 538 block chunks, 538 entity chunks, 0 poi chunks in world 'world' in 1.02s
-[21:46:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:46:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:46:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[21:46:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[21:46:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[21:46:10] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.44s
-[21:46:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:46:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:46:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[21:46:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[21:46:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[21:46:10] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.14s
-[21:46:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:46:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:46:10] [Server thread/INFO]: Flushing Chunk IO
-[21:46:10] [Server thread/INFO]: Closing Thread Pool
-[21:46:10] [Server thread/INFO]: Closing Server
+[21:49:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[21:49:53] [Server thread/INFO]: Default game type: CREATIVE
+[21:49:53] [Server thread/INFO]: Generating keypair
+[21:49:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:49:53] [Server thread/INFO]: Using default channel type
+[21:49:53] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[21:49:53] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[21:49:54] [Server thread/INFO]: [ServerTap] Loading server plugin ServerTap v0.5.3
+[21:49:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:49:54] [Server thread/INFO]: [ServerTap] Enabling ServerTap v0.5.3
+[21:49:54] [Server thread/INFO]: [ServerTap] No Vault plugin detected
+[21:49:54] [Server thread/WARN]: [ServerTap] AUTH KEY IS SET TO DEFAULT "change_me"
+[21:49:54] [Server thread/WARN]: [ServerTap] CHANGE THE key IN THE config.yml FILE
+[21:49:54] [Server thread/WARN]: [ServerTap] FAILURE TO CHANGE THE KEY MAY RESULT IN SERVER COMPROMISE
+[21:49:54] [Server thread/WARN]: [ServerTap] TLS is not enabled.
+[21:49:54] [Server thread/INFO]: [ServerTap] Enabling CORS for *
+[21:49:54] [Server thread/INFO]: [io.javalin.Javalin] Starting Javalin ...
+[21:49:54] [Server thread/INFO]: [org.eclipse.jetty.server.Server] jetty-11.0.14; built: 2023-02-22T23:41:48.575Z; git: 4601fe8dd805ce75b69c64466c115a162586641b; jvm 19.0.2+7-44
+[21:49:54] [Server thread/INFO]: [org.eclipse.jetty.server.session.DefaultSessionIdManager] Session workerName=node0
+[21:49:54] [Server thread/INFO]: [org.eclipse.jetty.server.handler.ContextHandler] Started i.j.j.@7ceed0e9{/,null,AVAILABLE}
+[21:49:54] [Server thread/INFO]: [org.eclipse.jetty.server.AbstractConnector] Started ServerConnector@42b6022b{HTTP/1.1, (http/1.1)}{0.0.0.0:4567}
+[21:49:54] [Server thread/INFO]: [org.eclipse.jetty.server.Server] Started Server@12ab3484{STARTING}[11.0.14,sto=0] @8951ms
+[21:49:54] [Server thread/INFO]: [io.javalin.Javalin] Listening on http://localhost:4567/
+[21:49:54] [Server thread/INFO]: [io.javalin.Javalin] You are running Javalin 5.4.2 (released March 6, 2023. Your Javalin version is 188 days old. Consider checking for a newer version.).
+[21:49:54] [Server thread/INFO]: [io.javalin.Javalin] Javalin started in 295ms \o/
+[21:49:55] [Server thread/INFO]: Preparing level "world"
+[21:49:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:49:55] [Server thread/INFO]: Time elapsed: 190 ms
+[21:49:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:49:55] [Server thread/INFO]: Time elapsed: 36 ms
+[21:49:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:49:55] [Server thread/INFO]: Time elapsed: 23 ms
+[21:50:05] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:119) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:91) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:94) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.lambda$get$1(YggdrasilServicesKeyInfo.java:81) ~[authlib-4.0.43.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577) ~[?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+Caused by: javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1718) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1518) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:96) ~[authlib-4.0.43.jar:?]
+	... 9 more
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:488) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:477) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:111) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:578) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1661) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1585) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:96) ~[authlib-4.0.43.jar:?]
+	... 9 more
+[21:50:05] [Server thread/INFO]: Running delayed init tasks
+[21:50:05] [Server thread/INFO]: Done (12.593s)! For help, type "help"
+[21:50:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10048ms or 200 ticks behind
+[21:50:05] [Server thread/INFO]: Timings Reset
+[21:50:29] [Server thread/INFO]: Stopping server
+[21:50:29] [Server thread/INFO]: [ServerTap] Disabling ServerTap v0.5.3
+[21:50:29] [Server thread/INFO]: [ServerTap] Disabled Version 0.5.3
+[21:50:29] [Server thread/INFO]: [io.javalin.Javalin] Stopping Javalin ...
+[21:50:29] [Server thread/INFO]: [org.eclipse.jetty.server.Server] Stopped Server@12ab3484{STOPPING}[11.0.14,sto=0]
+[21:50:29] [Server thread/INFO]: [org.eclipse.jetty.server.AbstractConnector] Stopped ServerConnector@42b6022b{HTTP/1.1, (http/1.1)}{0.0.0.0:4567}
+[21:50:29] [Server thread/INFO]: [org.eclipse.jetty.server.handler.ContextHandler] Stopped i.j.j.@7ceed0e9{/,null,STOPPED}
+[21:50:29] [Server thread/INFO]: [io.javalin.Javalin] Javalin has stopped
+[21:50:29] [Server thread/INFO]: Saving players
+[21:50:29] [Server thread/INFO]: Saving worlds
+[21:50:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:50:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:50:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:50:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:50:30] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 1.01s
+[21:50:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:50:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:50:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:50:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:50:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:50:31] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.49s
+[21:50:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:50:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:50:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:50:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:50:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:50:31] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.14s
+[21:50:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:50:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:50:31] [Server thread/INFO]: Flushing Chunk IO
+[21:50:31] [Server thread/INFO]: Closing Thread Pool
+[21:50:31] [Server thread/INFO]: Closing Server
